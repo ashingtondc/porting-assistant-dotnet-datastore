@@ -1,0 +1,54 @@
+{
+    "Name": "LigerShark.WebOptimizer.Core",
+    "Version": "3.0.250",
+    "Packages": [
+        {
+            "Name": "LigerShark.WebOptimizer.Core",
+            "Type": "Nuget"
+        }
+    ],
+    "Recommendations": [
+        {
+            "Type": "Namespace",
+            "Name": "LigerShark.WebOptimizer.Core",
+            "Value": "LigerShark.WebOptimizer.Core",
+            "KeyType": "Name",
+            "ContainingType": "",
+            "RecommendedActions": [
+                {
+                    "Source": "External",
+                    "Preferred": "Yes",
+                    "TargetFrameworks": [
+                        {
+                            "Name": "net5.0",
+                            "TargetCPU": [
+                                "x86",
+                                "x64",
+                                "ARM32",
+                                "ARM64"
+                            ]
+                        },
+                        {
+                            "Name": "netcoreapp3.1",
+                            "TargetCPU": [
+                                "x86",
+                                "x64",
+                                "ARM32",
+                                "ARM64"
+                            ]
+                        }
+                    ],
+                    "Description": "",
+                    "Actions": [
+                        {
+                            "Name": "AddPackage",
+                            "Type": "Package",
+                            "Value": "Azure.ImageOptimizer",
+                            "Description": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
